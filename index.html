@@ -1,0 +1,82 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Infotecs | Тестовое задание для стажера</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container__column">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td class="first-name sort" role="button">
+                            <div>
+                                <span class="triangle"></span>
+                                Сорт.
+                            </div>
+                        </td>
+                        <td class="last-name sort" role="button">
+                            <div>
+                                <span class="triangle"></span>
+                                Сорт.
+                            </div>
+                        </td>
+                        <td class="about sort" role="button">
+                            <div>
+                                <span class="triangle"></span>
+                                Сорт.
+                            </div>
+                        </td>
+                        <td class="eye-color sort" role="button">
+                            <div>
+                                <span class="triangle"></span>
+                                Сорт.
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="first-name">
+                            <div>Имя</div>
+                        </th>
+                        <th class="last-name">
+                            <div>Фамилия</div>
+                        </th>
+                        <th class="about">
+                            <div>Описание</div>
+                        </th>
+                        <th class="eye-color">
+                            <div>Цвет глаз</div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+                <tfoot>
+                    <tr>
+                        <td class="table__hide-btn" role="button">Свернуть</td>
+                        <td class="table__hide-btn" role="button">Свернуть</td>
+                        <td class="table__hide-btn" role="button">Свернуть</td>
+                        <td class="table__hide-btn" role="button">Свернуть</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <div class="container__pagination"></div>
+        </div>
+        <div class="container__column">
+            <div class="editor">
+                <form class="editor__form hidden" autocomplete="off">
+                    <button class="editor__form_submit" type="submit">Сохранить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/view.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
