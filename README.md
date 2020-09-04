@@ -30,6 +30,14 @@ JavaScript код разбит на несколько файлов:
  - Mozilla Firefox (версия 80.0.1, х64);
  - Microsoft Edge (версия 85.0.564.44, x64).
  
+#### Мои другие JavaScript проекты
+ - [MyInspire-ph.ru](https://github.com/Yoskutik/MyInspire-ph.ru) - старая версия сайта фотографа, написанная
+ c использованием jQuery и Bootstrap
+ - [SmartGuys](https://github.com/Yoskutik/SmartGuys) - сайт локального назначения для школы для дошкольников,
+ написанный на NodeJS
+ - [MyInspire-ph.ru-React](https://github.com/Yoskutik/MyInspire-ph.ru-React) - новая версия сайта фотографа,
+ написанная на React.JS и Vanilla JavaScript  
+ 
 ---
 
 ![](https://img.shields.io/badge/@Yoskutik-444?logo=github&style=flat-square)
