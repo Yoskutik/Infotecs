@@ -42,7 +42,7 @@ button, [role=button] {
   margin: 0;
   padding: 0;
   border-collapse: collapse;
-  table-layout: fixed;
+  table-layout: auto;
   width: 100%;
 
   td, th {

@@ -134,7 +134,7 @@
             const el = evt.target.closest('.table__hide-btn');
             if (!el) return;
             const index = Array.from(document.querySelectorAll('.table__hide-btn')).indexOf(el) + 1;
-            const cells = document.querySelectorAll(`th:nth-child(${index}), td:nth-child(${index})`)
+            const cells = document.querySelectorAll(`th:nth-child(${index}), td:nth-child(${index})`);
             if (el.classList.contains('minimized')) {
                 cells.forEach(it => it.classList.remove('minimized'));
                 el.textContent = 'Свернуть';
