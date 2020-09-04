@@ -46,18 +46,20 @@
 
             for (let [className, content] of fields) {
                 const attributes = { className };
-                switch (className) {
-                    case 'about':
-                        attributes.innerHTML = `<div>${content}</div>`;
-                        break;
-                    case 'eye-color':
-                        attributes.style = { backgroundColor: content };
-                        attributes.dataset = { color: content };
-                        break;
-                    default:
-                        attributes.innerHTML = `<div>${content}</div>`;
+                let td;
+                if (className === 'eye-color') {
+                    td = createElement('td', {
+                        style: { backgroundColor: content },
+                        dataset: { color: content },
+                        ...attributes,
+                    })
+                } else {
+                    td = createElement('td', attributes);
+                    const div = createElement('div', {
+                        textContent: content,
+                    });
+                    td.append(div);
                 }
-                const td = createElement('td', attributes);
                 tr.appendChild(td);
             }
 
